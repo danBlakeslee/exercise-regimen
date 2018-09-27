@@ -34,10 +34,20 @@
   /* width: 45.833333333315% */
 }
 
-
-
 .return-to-login {
   margin-top: 100px;
+  padding-top: 100px;
+  color: white;
+}
+
+.main-page {
+  background-color: rgb(237, 237, 237);
+}
+
+@media only screen and (max-width: 677px) {
+  .jumbotron-styles {
+    font-weight: normal;
+  }
 }
 
 
