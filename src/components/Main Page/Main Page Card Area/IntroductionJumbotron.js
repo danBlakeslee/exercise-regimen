@@ -28,9 +28,7 @@ class IntroductionJumbotron extends Component {
                     <Row>
                         <Col xs={12}>
                         <p className="jumbotron-styles" style={this.descriptionStyles}>
-                            
                             The application recommend the type of exercises to complete and how long you should do them.
-
                         </p>
                         </Col>
                     </Row>

@@ -36,7 +36,7 @@ class SelectionModal extends Component {
                         <h2>Let's Generate Your Recommendation</h2>
                     </Modal.Header>
                     <Modal.Body>
-                        <RecommendationParameters/>
+                        <RecommendationParameters closeModal={ this.handleClose }/>
                     </Modal.Body>
                 </Modal>
             </div>
